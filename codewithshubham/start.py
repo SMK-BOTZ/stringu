@@ -23,14 +23,13 @@ async def start(bot: Client, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
               [
-                    InlineKeyboardButton("ᴀᴅᴍɪɴ 1", url="https://t.me/shubham_X_Official"),
-                    InlineKeyboardButton("ᴀᴅᴍɪɴ 2", url="https://t.me/shubham_X_Official")
+                    InlineKeyboardButton("ᴀᴅᴍɪɴ", url="https://t.me/shubham_X_Official")
               ],[
-                    InlineKeyboardButton(text="ɢᴇɴʀᴀᴛᴇ ꜱᴛʀɪɴɢ", callback_data="generate")
+                    InlineKeyboardButton("ɢᴇɴʀᴀᴛᴇ ꜱᴛʀɪɴɢ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/the_creator_support_group"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/the_creator_botz")
+                    InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/unreal_X_support"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/unreal_X_bot")
                 ]
             ]
         ),
